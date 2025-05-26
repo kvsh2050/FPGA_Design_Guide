@@ -1,0 +1,10 @@
+1. Clock and reset signals do not appear on the RHS of any always@* or assigns 
+2. No clock Domain crossing occurs
+3. All Combinatorial ifs have corresponding default or else 
+4. All Case Options are covered and default case provided.
+5. All LHS in an if/else/case appear are assigned for all conditions 
+6. An LHS in an assign /always@* are an LHS only in that block
+7. All seq blocks have (posedge clk) notation
+8. No logic in seq block i.e, always@posedge block map directly to a flip flop from the standard cell library
+9. Check combinatorial Loop, i.e, no LHS is affected by itself in RHS
+10. Sysverilog logic type and always blocks. Do linter, Do synthesis.
