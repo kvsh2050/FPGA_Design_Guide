@@ -36,7 +36,6 @@ Run the following commands from the project root:
 make all   # Compile source and testbench
 make run   # Run the simulation
 make wave  # Open waveform in GTKWave
-````
 ```
 ---
 
